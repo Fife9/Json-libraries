@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Girassol&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body, html {
+
+  background-color: #222;
+  color: #8940F5;
+  font-family: 'Girassol', cursive;
+  text-shadow: #000 0px 0px 1px;
+  height: 100%;
+
+}
+
+body {
+  font-size: 2rem;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  padding-left: 2vmin;
+  padding-right: 2vmin;
+}
+.mainContainer {
+  background-color:#4052f5  ;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  padding: 0 10vw 0 10vw;
+}
+
+.header {
+  background-color: black;
+  font-size: 3rem;
+  height: 90vh;
+  background-image:url("/Users/fife/Desktop/Json-libraries/json-photos/Woods.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.header h1{
+  padding-top: 40vh;
+  color: #F540AD;
+  font-family: 'Girassol', cursive;
+  text-shadow: #000 0px 0px 1px;
+}
+
+.fullWidth {
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  text-align: center;
+}
+
+.twoColumn {
+  grid-column-end: span 2;
+}
+
+.section h1{
+  color: #E340F5;
+}
+
+.section {
+  border-top: 1vh solid #eee;
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  background-color: #F58940;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  margin-top: 5vh;
+}
+.info {
+  padding-top: 5vmin
+  border-top: 1vh solid #eee;
+  grid-column-start: 0;
+  grid-column-end: span 4;
+  background-color: #F54052;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+  margin-top: 5vh;
+}
+.glide__slide {
+  height:800px;
+  width: 1080px;
+  overflow: hidden;
+}
+.glide__slide img {
+  height: auto;
+  width: 1080px;
+}
